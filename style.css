@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'nasalization';
+    src: url('fonts/nasalization-rg.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: nasalization, sans-serif;
+    background-color: #000;
+}
+
+header{
+    position: relative;
+}
+
+.title{
+    position: absolute; /* deixa a posição do título absoluta */
+    top: 45%; /* ajusta a posição verticalmente */
+    left: 50%; /* ajusta a posição horizontalmente */
+    transform: translate(-50%, -50%); /* centraliza o contêiner */
+    text-align: center; /* centraliza o texto horizontalmente */
+    color: #fff; /* cor do texto (ajuste conforme necessário) */
+}
+
+.title h1{
+    font-size: 6.5vw;
+}
+
+.title h2{
+    font-size: 2.35vw;
+}
+
+.title h1, .title h2 {
+    display: block; /* faz com que eles ocupem toda a largura do contêiner pai */
+    margin: 10px; /* ajuste as margens conforme necessário */
+}
+
+.background img{
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to top, #000, #000);
+}
+.infos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre, .como{
+    background-color: #021526;
+    color: #fff;
+    width: 40%; 
+    margin: 10px;
+    border-radius: 15px;
+    height: 15vh;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.sobre h2, .como h2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre img, .como img{
+    float: right;
+    width: 10%;
+    position: relative;
+    top: -65px;
+    cursor: pointer;
+    right: 2vw;
+}
+
+.slogan{
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.slogan p{
+    margin-top: 10%;
+    font-size: 2vw;
+    color: #fff;
+    width: 35%;
+   text-align: center;
+
+}
