@@ -1,3 +1,4 @@
+//PARTE DA API
 //Variável que armazena a data solicitada 
 const data = document.getElementById("campoBusca");
 
@@ -34,4 +35,26 @@ btnSearch.addEventListener('click', () => {
             divPai.appendChild(divElement)
         })
 
+});
+// ENCERRANDO PARTE DA API
+
+//MEXENDO NO FRONT
+var elementsInfo = document.querySelectorAll('.info');
+
+// executando uma função para cada uma das informações
+elementsInfo.forEach(function (info) {
+    info.addEventListener('click', function() {
+        // alternar a classe 'ativa' na div .info
+        info.classList.toggle('ativa');
+        var arrow = info.querySelector('.arrow');
+        var x = info.querySelector('.x');
+        
+        if (info.classList.contains('ativa')) {
+            arrow.style.display = 'none';
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+            arrow.style.display = 'block';
+        }
+    });
 });
