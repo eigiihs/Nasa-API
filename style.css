@@ -8,12 +8,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ /* corpo da pag */
 body{
     font-family: nasalization, sans-serif;
-    background-color: #000;
+    background-color: #000; 
 }
 
+/* parte inicial da página */
 header{
     position: relative;
 }
@@ -45,61 +46,99 @@ header{
     height: 20%;
     background: linear-gradient(to top, #000, #000);
 }
-.infos{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
+/* /parte inicial */
+
+/* cards que abre */
+#infos{
+    display: flex; /* deixando o containe flexível */
+    flex-direction: column; /* organizando as divs de dentro em coluna */
+    text-align: center; /* alinhando os texto ao centro */
+    margin: 0 auto; /* deixando as divs no meio */
+    padding: 30px 80px; /* add espaçamento */
+    width: 45%; /* largura das divs */
+}  
+
+.info{
+    position: relative; /* falando que a posição dos filhos vão ser relativamente a esta div */
+    margin: 20px;
+    cursor: pointer; /* clica */
+    width: 100%; /* largura de 100% do container pai */
 }
 
-.container{
-    width: 100%;
+.info h2{
+    background-color: #021526;
+    border-radius: 15px;
+    padding: 24px;
+    color: #fff;
+}
+
+.info img{
+    position: absolute; /* definindo a posição da imagem como absoluta */
+    width: 40px;
+    top: 20px;
+    right: 30px;
+    transition: .4s; /* uma transição de 4 segundos para visualizar mudança */
+}
+
+.info .paragrafo{
+    background-color: #021526;
+    border-radius: 15px;
+    margin-top: -23px; /* tirando o espaçamento q ficou entre o h2 e o p */
+    padding: 0 24px;
+    height: 0;
+    opacity: 0; /* deixando invisível */
+    overflow: hidden; /* escondendo conteudo */
+    transition: .4s;
+}
+
+.info.ativa .paragrafo{
+    height: fit-content; /* fit-content: fazer com que a altura se ajuste com o conteúdo, e faça caber */
+    opacity: 1; /* fazendo as inforamções aparecerem */
+    padding: 24px;
+}
+
+.x{
+    display: none; /* invisível */
+}
+
+.info .x{ /* add coisas na imagem do x */
+    width: 25px;
+    top: 25px;
+    right: 40px;
+}   
+/* /card q abre */
+
+/* carrossel dos planetas */
+#planets{
+    position: relative;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-}
-
-.sobre, .como{
-    background-color: #021526;
-    color: #fff;
-    width: 40%; 
-    margin: 10px;
-    border-radius: 15px;
-    height: 15vh;
-    text-align: center;
-    font-size: 1.5vw;
-}
-
-.sobre h2, .como h2{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sobre img, .como img{
-    float: right;
-    width: 10%;
-    position: relative;
-    top: -65px;
-    cursor: pointer;
-    right: 2vw;
+    width: 100%;
 }
 
 .slogan{
-    
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    display: flex;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    width: 26%;
 }
 
-.slogan p{
-    margin-top: 10%;
-    font-size: 2vw;
-    color: #fff;
-    width: 35%;
-   text-align: center;
+.planets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.planet{
+    text-align: center;
+    margin: 50px;
+}
+
+.planet img{
+    width: 60%;
+}
+
+.planet h1{
+    color: #fff;
 }
