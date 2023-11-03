@@ -108,8 +108,9 @@ header{
 }   
 /* /card q abre */
 
-/* carrossel dos planetas */
-#planets{
+/* * carrossel dos planetas*/
+
+/* #planets{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -124,11 +125,6 @@ header{
     width: 26%;
 }
 
-.planets{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
 .planet{
     text-align: center;
@@ -136,9 +132,9 @@ header{
 }
 
 .planet img{
-    width: 60%;
+    width: 50%;
 }
 
 .planet h1{
     color: #fff;
-}
+} */
