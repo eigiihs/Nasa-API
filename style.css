@@ -108,13 +108,39 @@ header{
 }   
 /* /card q abre */
 
+/* estilização da search bar */
+.search-box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #032340;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
 
+.search-date{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.search-box img{
+    height: 30px;
+    width: 30px;
+}
+
+/* /estilização da search bar */
 #planets{
-     position: relative;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 30px;
 }
 
 .slogan{
