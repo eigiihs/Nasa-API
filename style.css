@@ -114,8 +114,8 @@ header{
     left: 50%;
     transform: translateX(-50%);
     background-color: #032340;
-    height: 50px;
-    padding: 10px;
+    height: 80px;
+    padding: 30px;
     border-radius: 40px;
     display: flex;
     justify-content: space-between;
@@ -123,14 +123,38 @@ header{
     z-index: 2;
 }
 
+.search-date::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
 .search-date{
-    box-shadow: 0 0 0 0;
-    outline: 0;
+    color: #fff;
+    font-size: 1vw;
+    font-family: nasalization, sans-serif;
+    background: none;
+    border: none;
+    outline: none;
+    width: 0;
+    transition: 0.5s ease-in-out;
 }
 
 .search-box img{
     height: 30px;
     width: 30px;
+}
+
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #032340;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box:hover > .search-date{
+    width: 240px;
 }
 
 /* /estilização da search bar */
@@ -140,7 +164,7 @@ header{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .slogan{
