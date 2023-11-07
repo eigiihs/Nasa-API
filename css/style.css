@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "nasalization";
+  src: url("../fonts/nasalization-rg.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* corpo da pag */
+body {
+  font-family: nasalization, sans-serif;
+  background-color: #000;
+}
+
+/* parte inicial da página */
+header {
+  position: relative;
+}
+
+.title {
+  position: absolute; /* deixa a posição do título absoluta */
+  top: 45%; /* ajusta a posição verticalmente */
+  left: 50%; /* ajusta a posição horizontalmente */
+  transform: translate(-50%, -50%); /* centraliza o contêiner */
+  text-align: center; /* centraliza o texto horizontalmente */
+  color: #fff; /* cor do texto (ajuste conforme necessário) */
+}
+
+.title h1 {
+  font-size: 6.5vw;
+}
+
+.title h2 {
+  font-size: 2.35vw;
+}
+
+.title h1,
+.title h2 {
+  display: block; /* faz com que eles ocupem toda a largura do contêiner pai */
+  margin: 10px; /* ajuste as margens conforme necessário */
+}
+
+.background img {
+  width: 100%;
+  height: 20%;
+  background: linear-gradient(to top, #000, #000);
+}
+/* /parte inicial */
+
+/* cards que abre */
+#infos {
+  display: flex; /* deixando o containe flexível */
+  flex-direction: column; /* organizando as divs de dentro em coluna */
+  text-align: center; /* alinhando os texto ao centro */
+  margin: 0 auto; /* deixando as divs no meio */
+  padding: 30px 80px; /* add espaçamento */
+  width: 45%; /* largura das divs */
+  margin-right: 390px;
+}
+
+.info-about,
+.info-how {
+  position: relative; /* falando que a posição dos filhos vão ser relativamente a esta div */
+  margin: 20px;
+  width: 100%; /* largura de 100% do container pai */
+}
+
+.info-about h2,
+.info-how h2 {
+  background-color: #021526;
+  border-radius: 15px;
+  padding: 24px;
+  color: #fff;
+}
+
+#toggle-about,
+#toggle-how {
+  position: absolute; /* definindo a posição da imagem como absoluta */
+  width: 40px;
+  top: 20px;
+  right: 30px;
+  transition-duration: 0.4s; /* uma transição de 4 segundos para visualizar mudança */
+}
+
+#toggle-about:hover,
+#toggle-how:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#toggle-about img,
+#toggle-how img {
+  width: 100%;
+}
+
+.carousel-info {
+  margin-top: -10px;
+  padding: 30px 20px 30px 20px;
+  background-color: #021526;
+  border-radius: 0 0 15px 15px;
+  display: none;
+  transition-duration: 0.4s;
+}
+
+.carousel-info-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.carousel-info-content img {
+  width: 35px;
+  transition-duration: 0.4s;
+}
+
+.carousel-info-content img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.carousel-info-content img:first-child {
+  transform: rotate(180deg);
+}
+
+.carousel-info-content-paragraphs {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.carousel-info-content-paragraphs p {
+  min-width: 100%;
+  color: #fff;
+  transform: translateX(315px);
+  transition-duration: 0.4s;
+}
+
+.carousel-info-indicators {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.carousel-info-indicator-about,
+.carousel-info-indicator-how {
+  width: 9px;
+  height: 9px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.carousel-info-indicator-about:first-child,
+.carousel-info-indicator-how:first-child {
+  background-color: #08428c;
+}
+/* /card q abre */
+
+/* estilização da search bar */
+.search-box {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  margin-top: 20px;
+  transform: translateX(-50%);
+  background-color: #032340;
+  height: 80px;
+  padding: 30px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.search-date::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.search-date {
+  cursor: pointer;
+  color: #fff;
+  font-size: 1vw;
+  font-family: nasalization, sans-serif;
+  background: none;
+  border: none;
+  outline: none;
+  width: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.search-box img {
+  height: 30px;
+  width: 30px;
+}
+
+.search-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #032340;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box:hover > .search-date {
+  width: 240px;
+}
+/* /estilização da search bar */
+
+/* parte dos planetas */
+.planets{
+  position: relative;
+  overflow: hidden;
+}
+
+.planet{
+  position: absolute;
+  width: 100%;
+  transition: 0.5s;
+  left: calc(50% - 110px);
+}
+
+.planet h1 {
+  color: #fff;
+}

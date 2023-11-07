@@ -1,103 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>STELLARIUM</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-    <header><!-- parte inicial do site -->
-        <div class="start"><!-- infos iniciais -->
-            <div class="title"><!-- título -->
-                <h1>STELLARIUM</h1>
-                <h2>O Universo ao alcance do seu olhar</h2>
-            </div><!-- /título -->
-            <div class="background"><!-- fundo -->
-                <img src="img/background.svg" alt="">
-            </div><!-- /fundo -->
-        </div><!-- /infos inicio -->
-    </header><!-- /início -->
+  <body>
+    <header>
+      <!-- parte inicial do site -->
+      <div class="start">
+        <!-- infos iniciais -->
+        <div class="title">
+          <!-- título -->
+          <h1>STELLARIUM</h1>
+          <h2>O Universo ao alcance do seu olhar</h2>
+        </div>
+        <!-- /título -->
+        <div class="background">
+          <!-- fundo -->
+          <img src="img/background.svg" alt="" />
+        </div>
+        <!-- /fundo -->
+      </div>
+      <!-- /infos inicio -->
+    </header>
+    <!-- /início -->
 
-        <section id="infos">
-            <div class="info">
-                <h2>Sobre nós</h2>
-                <img class="arrow" src="img/arrow.svg" alt="">
-                <img class="x" src="img/cancel.svg" alt="">
-                <p class="paragrafo" style="color: #fff;">Bem-vindo ao Stellarium, uma jornada pelo cosmos comandada por um 
-                    grupo apaixonado de quatro jovens entusiastas da astronomia. </p>
-            </div>
+    <section id="infos">
+      <div class="info-about">
+        <div class="info-header">
+          <h2>Sobre nós</h2>
+          <img src="img/arrow-up.png" id="toggle-about" />
+        </div>
 
-            <div class="info">
-                <h2>Como funciona</h2>
-                <img class="arrow" src="img/arrow.svg" alt="">
-                <img class="x" src="img/cancel.svg" alt="">
-                <p class="paragrafo" style="color: #fff;">O Stellarium é um portal único que permite explorar imagens espaciais surpreendentes, 
-                    cada uma correspondendo a uma data específica.</p>
+        <div class="carousel-info" id="carousel-about">
+          <div class="carousel-info-content">
+            <img src="img/arrow-horizontal.svg" id="arrow-back-about" />
+            <div class="carousel-info-content-paragraphs">
+              <p class="carousel-paragraph-about">
+                <span style="color: #89bad9;">Bem-vindo ao Stellarium,</span> uma jornada pelo cosmos comandada por
+                <span style="color: #89bad9;">um grupo apaixonado de quatro jovens entusiastas da astronomia.</span>
+              </p>
+              <p class="carousel-paragraph-about">
+                Nossa missão é tornar a <span style="color: #89bad9;">astronomia acessível a todos e despertar
+                a curiosidade pelo cosmos.</span> O espaço é um lugar de maravilhas
+                infinitas, e queremos que você se sinta parte dessa <span style="color: #89bad9;">exploração.</span>
+              </p>
+              <p class="carousel-paragraph-about">
+                <span style="color: #89bad9;">Junte-se a nós nesta viagem estelar</span> enquanto continuamos a
+                compartilhar a <span style="color: #89bad9;">beleza do universo,</span> um dia de cada vez. Seja você
+                um entusiasta experiente ou um iniciante curioso, <span style="color: #89bad9;">estamos aqui
+                para inspirar.</span>
+              </p>
             </div>
-        </section>
-        
-        <section id="search">
-            <div class="search-box">
-                <input type="date" class="search-date" id="campoBusca">
-                <a href="" class="search-btn" id="btnBusca">
-                    <img src="img/search.svg" alt="">
-                </a>
+            <img src="img/arrow-horizontal.svg" id="arrow-next-about" />
+          </div>
+          <div class="carousel-info-indicators">
+            <div class="carousel-info-indicator-about"></div>
+            <div class="carousel-info-indicator-about"></div>
+            <div class="carousel-info-indicator-about"></div>
+          </div>
+        </div>
+      </div>
+      <div class="info-how">
+        <div class="info-header">
+          <h2>Como funciona</h2>
+          <img src="img/arrow-up.png" id="toggle-how" />
+        </div>
+
+        <div class="carousel-info" id="carousel-how">
+          <div class="carousel-info-content">
+            <img src="img/arrow-horizontal.svg" id="arrow-back-how" />
+            <div class="carousel-info-content-paragraphs">
+              <p class="carousel-paragraph-how">
+                <span style="color: #89bad9;">O Stellarium é um portal único</span> que permite explorar imagens
+                espaciais surpreendentes, cada uma correspondendo a uma data
+                específica.
+              </p>
+              <p class="carousel-paragraph-how">
+                Ao acessar o Stellarium, você verá uma <span style="color: #89bad9;">opção para inserir a data
+                desejada</span> no campo de pesquisa. Escolha uma data que lhe
+                interesse, desde que ela seja <span style="color: #89bad9;">posterior ao dia 16 de junho de
+                1995.</span>
+              </p>
+              <p class="carousel-paragraph-how">
+                Após inserir a data, o <span style="color: #89bad9;">Stellarium exibirá automaticamente uma
+                imagem</span> espacial relacionada a essa data. Você será transportado
+                para o cosmos, onde poderá <span style="color: #89bad9;">explorar as maravilhas do universo.</span>
+              </p>
             </div>
-        </section>
-        
-       <section id="planets">
-            <div class="slogan">
-                <p>A IMENSIDÃO DO ESPAÇO
-                    é uma tapeçaria estelar sem fim, onde
-                     galáxias distantes <span style="color: #89BAD9;">dançam na vastidão 
-                    interminável do universo.</span></p>
-            </div>
-            <div class="planets">
-                <div class="planet">
-                    <img src="img/terra.svg" alt="">
-                    <h1>Terra</h1>
-                </div>
-                <div class="planet">
-                    <img src="img/júpiter.svg" alt="">
-                    <h1>Júpiter</h1>
-                </div>
-                <div class="planet">
-                    <img src="img/marte.svg" alt="">
-                    <h1>Marte</h1>
-                </div>
-                <div class="planet">
-                    <img src="img/mercúrio.svg" alt="">
-                    <h1>Mercúrio</h1>
-                </div>
-                <div class="planet">
-                    <img src="img/netuno.svg" alt="">
-                    <h1>Netuno</h1>
-                </div>
-                <div class="planet">
-                    <img src="img/saturno.svg" alt="">
-                    <h1>Saturno</h1>
-                </div>
-                <div class="planet">
-                    <img src="img/urano.svg" alt="">
-                    <h1>Urano</h1>
-                </div>
-                <div class="planet">
-                    <img src="img/vênus.svg" alt="">
-                    <h1>Vênus</h1>
-                </div>
-            </div>
-        </section>
+            <img src="img/arrow-horizontal.svg" id="arrow-next-how" />
+          </div>
+          <div class="carousel-info-indicators">
+            <div class="carousel-info-indicator-how"></div>
+            <div class="carousel-info-indicator-how"></div>
+            <div class="carousel-info-indicator-how"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="search">
+      <div class="search-box">
+        <input type="date" class="search-date" id="campoBusca" />
+        <a class="search-btn" id="btnBusca">
+          <img src="img/search.svg" alt="" />
+        </a>
+      </div>
+    </section>
+
+    <section id="planetas">
+      
+      <div class="planets">
+        <div class="planet">
+          <img src="img/terra.svg" alt="" />
+          <h1>Terra</h1>
+        </div>
+        <div class="planet">
+          <img src="img/júpiter.svg" alt="" />
+          <h1>Júpiter</h1>
+        </div>
+        <div class="planet">
+          <img src="img/marte.svg" alt="" />
+          <h1>Marte</h1>
+        </div>
+        <div class="planet">
+          <img src="img/mercúrio.svg" alt="" />
+          <h1>Mercúrio</h1>
+        </div>
+        <div class="planet">
+          <img src="img/netuno.svg" alt="" />
+          <h1>Netuno</h1>
+        </div>
+        <div class="planet">
+          <img src="img/saturno.svg" alt="" />
+          <h1>Saturno</h1>
+        </div>
+        <div class="planet">
+          <img src="img/urano.svg" alt="" />
+          <h1>Urano</h1>
+        </div>
+        <div class="planet">
+          <img src="img/vênus.svg" alt="" />
+          <h1>Vênus</h1>
+        </div>
+
+        <button id="next"><</button>
+        <button id="prev">></button>
+      </div>
+    </section>
 
     <h1>Imagem do Dia - Astronomy Picture of the Day</h1>
 
     <div class="containerPrincipal" id="pai"></div>
 
-
-    <script src="app.js"></script>
-</body>
-
+    <script src="js/app.js"></script>
+    <script src="js/infoCarousel.js"></script>
+  </body>
 </html>
