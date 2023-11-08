@@ -3,6 +3,10 @@
   src: url("../fonts/nasalization-rg.ttf") format("truetype");
 }
 
+.html2{
+  color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -55,9 +59,9 @@ header {
   flex-direction: column; /* organizando as divs de dentro em coluna */
   text-align: center; /* alinhando os texto ao centro */
   margin: 0 auto; /* deixando as divs no meio */
-  padding: 30px 80px; /* add espaçamento */
-  width: 45%; /* largura das divs */
-  margin-right: 390px;
+  padding: 5% 80px; /* add espaçamento */
+  width: 50%; /* largura das divs */
+  margin-right: 360px;
 }
 
 .info-about,
@@ -168,7 +172,7 @@ header {
   cursor: pointer;
   position: absolute;
   left: 50%;
-  margin-top: 20px;
+  margin-top: 2%;
   transform: translateX(-50%);
   background-color: #032340;
   height: 80px;
@@ -216,19 +220,156 @@ header {
 }
 /* /estilização da search bar */
 
+/* slogan */
+.slogan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan p{
+  color: #fff;
+  width: 28%;
+  text-align: center;
+  margin-top: 15%;
+}
+
 /* parte dos planetas */
-.planets{
+#planetas{
+  margin-top: 5%;
+}
+
+.carousel-planets{
+  width: 100%;
   position: relative;
+}
+
+.carousel-planets i{
+  position: absolute;
+  cursor: pointer;
+  height: 46px;
+  width: 46px;
+  top: 50%;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 46px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-planets i:first-child{
+  left: 10px;
+}
+
+.carousel-planets i:last-child{
+  left: 95%;
+}
+
+ .carousel-planet-image{
+  white-space: nowrap;
+  font-size: 0;
+  cursor: pointer;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.carousel-planet-image img{
+  object-fit: cover; /* especifica como um objeto (imagem, vídeo etc) deve ser redimensionado para se ajustar ao seu contêiner */
+  width: calc(100% / 3);
+  margin-left: 50px;
+  width: 25%;
+}
+
+.carousel-planet-image img:first-child{
+  margin-left: -15px;
+}
+
+.carousel-planet-image img:nth-child(6) {
+  width: 500px;
+  height: auto; 
+}
+/* /carrossel planetas */
+
+/* slogan lua */
+.slogan-lua{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan-lua p{
+  color: #fff;
+  width: 28%;
+  text-align: center;
+  margin-top: 10%;
+}
+/* /slogan lua */
+
+/* carrossel lua */
+#moon{
+  margin-top: 10%;
+}
+
+.carousel-moon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  margin-top: 5%;
+  margin-bottom: 10px;
+}
+
+.moons{
+  display: flex;
   overflow: hidden;
 }
 
-.planet{
-  position: absolute;
-  width: 100%;
-  transition: 0.5s;
-  left: calc(50% - 110px);
+.moon-element{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  width: 50%;
+  height: 300px;
+  border: solid #fff 1.5px;
+  border-radius: 30px;
+  gap: 30px;
 }
 
-.planet h1 {
-  color: #fff;
+.moon-element img{
+  width: 50%;
+  right: 40px;
 }
+
+.moon-element h1{
+  color: #fff;
+  white-space: normal;
+}
+
+.moon-element h1{
+  font-size: 33px;
+  opacity: 70%;
+}
+
+.carousel-moon i{
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 46px;
+  color: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-moon i:first-child{
+  left: 15%;
+}
+
+.carousel-moon i:last-child{
+  right: 15%;
+} 

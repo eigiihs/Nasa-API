@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "nasalization";
+    src: url("../fonts/nasalization-rg.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: nasalization, sans-serif;
+    background-color: #000;
+}
+
+/* estilização do cabeçalho */
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho h1{
+    color: #fff;
+    font-size: 3vw;
+    margin: 40px 0px 0px 50px;
+}
+
+.cabecalho img{
+    width: 3vw;
+    margin: 40px 50px 0px 0px;
+}
+
+#arrow-down:hover{
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+}
+
+/* /estilização do cabeçalho */
+
+/* estilização do card referente ao resultado */
+.resultado{
+    background-color: #021526;
+    margin: 0 auto;
+    height: 45vh;
+    width: 40vw;
+    position: static;
+    border-radius: 5%;
+    padding: 30px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.resultado h3, .resultado p{
+    color: #fff;
+    margin: 0px 20px 5px 20px;
+}
+
+.resultado h3{
+    margin-top: 30px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-test{
+    width: 35vw;
+    margin-top: 20px; 
+}
+
+#arrow-down{
+    display: flex;
+    width: 4vw;
+    float: right;
+    margin: -50px 5px 0px 0px;
+    cursor: pointer;
+}
+
+#arrow-down:hover{
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+}
+
+#description{
+    display: flex;
+    margin-top: 40px;
+}
+
+/* /estilização do card referente ao resultado */

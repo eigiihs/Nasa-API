@@ -22,17 +22,17 @@ btnSearch.addEventListener("click", () => {
       const valorAPI = result;
       console.log(valorAPI.date);
 
-      const divPai = document.getElementById("pai");
-      let divElement = document.createElement("div");
+      const newTab = window.open('result.html', '_blank');
 
-      divElement.innerHTML = `
-            <p>${valorAPI.title}</p>
-            <p>${valorAPI.date}</p>
-            <img src="${valorAPI.url}" alt="">
-            <p>${valorAPI.explanation}</p>
-            
-            `;
-      divPai.appendChild(divElement);
+      // Aguarde um pouco para garantir que a nova aba esteja carregada
+      setTimeout(function () {
+        // Atualize os elementos na página result.html com os valores da API
+        newTab.document.getElementById('image-test').src = valorAPI.url;
+        newTab.document.getElementById('title').textContent = valorAPI.title;
+        newTab.document.getElementById('date').textContent = valorAPI.date;
+        newTab.document.getElementById('description').textContent = valorAPI.explanation;
+      }, 1000); // Você pode ajustar o tempo de espera conforme necessário
+    
+
     });
 });
-// ENCERRANDO PARTE DA API
