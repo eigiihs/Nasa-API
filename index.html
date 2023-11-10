@@ -145,14 +145,14 @@
         <!-- planets -->
         <div class="carousel-planet-image">
           <!-- div planet -->
-          <img src="img/terra.svg" alt="" />
-          <img src="img/jupiter.svg" alt="" />
-          <img src="img/marte.svg" alt="" />
-          <img src="img/mercurio.svg" alt="" />
-          <img src="img/netuno.svg" alt="" />
-          <img src="img/saturno.svg" alt="saturno" />
-          <img src="img/urano.svg" alt="" />
-          <img src="img/venus.svg" alt="" />
+          <a href="planets/terra.html"><img src="img/terra.svg" alt="" /></a>
+          <a href="planets/jupiter.html"><img src="img/jupiter.svg" alt="" /></a>
+          <a href="planets/marte.html"><img src="img/marte.svg" alt="" /></a>
+          <a href="planets/mercurio.html"><img src="img/mercurio.svg" alt="" /></a>
+          <a href="planets/netuno.html"><img src="img/netuno.svg" alt="" /></a>
+          <a href="planets/saturno.html"><img src="img/saturno.svg" alt="saturno" /></a>
+          <a href="planets/urano.html"><img src="img/urano.svg" alt="" /></a>
+          <a href="planets/venus.html"><img src="img/venus.svg" alt="" /></a>
         </div>
         <i id="right" class="fa-solid fa-angle-right"></i>
         <!-- /planet -->
@@ -165,26 +165,23 @@
     </div>
 
     <section id="moon">
-      <div class="carousel-moon">  <!-- carousel-moon --> 
-        <div class="moon-element">
-          <img src="img/moon-waning.svg" alt="">
-          <h1><span style="font-size: 100px;">Lua</span> Minguante</h1>
+      <div class="carousel-moon">
+        <div class="list">
+
+          <div class="item active">
+            <img src="img/full-moon-2.svg" alt="" class="moon">
+          </div>
+          <div class="item">
+            <img src="img/waning-moon-2.svg" alt="" class="moon">
+          </div>
+          <div class="item">
+            <img src="img/new-moon-2.svg" alt="" class="moon">
+          </div>
+          <div class="item hidden crescent-moon">
+            <img src="img/crescent-moon-2.svg" alt="" class="moon">
+          </div>
         </div>
-        <div class="moon-element">
-          <img src="img/full-moon.svg" alt="">
-          <h1><span style="font-size: 100px;">Lua</span> <span style="font-size: 64px;">Cheia</span></h1>
-        </div>
-        <div class="moon-element">
-          <img src="img/new-moon.svg" alt="">
-          <h1><span style="font-size: 100px;">Lua</span> <span style="font-size: 68px;">Nova</span></h1>
-        </div>
-        <div class="moon-element">
-          <img src="img/crescent-moon.svg" alt="">
-          <h1><span style="font-size: 100px;">Lua</span> <span style="font-size: 36px;">Crescente</span></h1>
-        </div>
-        <button id="next-moon">></button>
-        <button id="prev-moon"><</button>
-      </div> <!-- /carousel-moon -->
+      </div>
     </section>
 
     <div class="containerPrincipal" id="pai"></div>

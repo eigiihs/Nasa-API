@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "nasalization";
+  src: url("../fonts/nasalization-rg.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: nasalization, sans-serif;
+  background: #000;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+}
+
+.header img {
+  width: 100%;
+}
+
+.header h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 4vw;
+  letter-spacing: 10px;
+}
+
+.sublinhado {
+  background-image: linear-gradient(90deg, #042959, #228b22);
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  background-position: left bottom;
+  transition: background-size 500ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.sublinhado:hover {
+  background-size: 100% 3px;
+}
+
+.arrow-back {
+  width: 1.5%;
+  position: absolute;
+  top: 3%; 
+  left: 2.5%;
+  transform: translateX(-50%); /* centraliza a seta corretamente */
+  transition-duration: 0.4s;
+}
+
+.arrow-back:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 35%;
+  left: 52%;
+  transform: translateX(-50%);
+}
+
+.arrow img {
+  width: 90%;
+}
+
+.content {
+  text-align: center;
+  margin: 0 auto;
+
+  font-size: 2vw;
+  color: #fff;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+/* /PLANETA TERRA */
+
+/* jupiter */
+.arrow-2 {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arrow-2 img {
+  width: 90%;
+}
+
+.sublinhado-2 {
+  background-image: linear-gradient(90deg, #76462E, #C86D25);
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  background-position: left bottom;
+  transition: background-size 500ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.sublinhado-2:hover {
+  background-size: 100% 3px;
+}
+/* /Jupiter */
+
+/* Marte */
+.content-marte {
+  text-align: center;
+  margin: 0 auto;
+
+  font-size: 2vw;
+  color: #fff;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.content-marte p{
+  margin-top: 10%;
+}
+
+.sublinhado-marte {
+  background-image: linear-gradient(90deg, #ECAA43, #43221F );
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  background-position: left bottom;
+  transition: background-size 500ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.sublinhado-marte:hover {
+  background-size: 100% 3px;
+}

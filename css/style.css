@@ -281,7 +281,7 @@ header {
   left: 95%;
 }
 
- .carousel-planet-image{
+ .carousel-planet-image {
   white-space: nowrap;
   font-size: 0;
   cursor: pointer;
@@ -290,11 +290,14 @@ header {
   width: 100%;
 }
 
+.carousel-planet-image a {
+  display: inline-block; /* Adicione esta linha para tornar os links em linha com a largura desejada */
+}
+
 .carousel-planet-image img{
   object-fit: cover; /* especifica como um objeto (imagem, vídeo etc) deve ser redimensionado para se ajustar ao seu contêiner */
   width: calc(100% / 3);
-  margin-left: 50px;
-  width: 25%;
+  width: 70%;
 }
 
 .carousel-planet-image img:first-child{
@@ -327,56 +330,45 @@ header {
   margin-top: 10%;
 }
 
+.list img:nth-child(3){
+  width: 40%;
+
+}
+
 .carousel-moon{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  height: 100vh;
+
   position: relative;
   overflow: hidden;
+}
+
+.list{
   width: 100%;
-  height: 350px;
-
-  margin-top: 5%;
-  margin-bottom: 10px;
+  height: 100%;
 }
 
-.moon-element{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.item{
   position: absolute;
-  justify-content: space-between;
-  gap: 40px;
-  background-color: #000;
-  width: 40%;
-  height: 350px;
-  border: solid #fff 1.5px;
-  border-radius: 30px;
-  left: calc(37% - 110px);
+  width: 100%;
+  height: 100%;
 }
 
-.moon-element img{
-  width: 50%;
-  margin-left: 10px;
-}
-
-.moon-element h1{
-  color: #fff;
-  white-space: normal;
-  font-size: 33px;
-}
-
-#next-moon, #prev-moon{
+.item img.moon{
   position: absolute;
-  top: 40%;
-  color: #fff;
-  background-color: transparent;
-  border: none;
-  font-size: 70px;
-  left: 16%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 15;
+  pointer-events: none;
 }
 
-#next-moon{
-  left: unset;
-  right: 20%;
+.item.active{
+  display: block;
+}
+
+.item.hidden{
+  display: block;
+  pointer-events: none;
+  z-index: 1;
 }
