@@ -18,6 +18,21 @@ body {
   background-color: #000;
 }
 
+/* scrollbar */
+::-webkit-scrollbar{
+  width: 12px;
+}
+
+::-webkit-scrollbar-track{
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #021526;
+  border-radius: 5px;
+}
+/* /scrollbar */
+
 /* parte inicial da página */
 header {
   position: relative;
@@ -317,59 +332,51 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
 
   margin-top: 5%;
   margin-bottom: 10px;
 }
 
-.moons{
-  display: flex;
-  overflow: hidden;
-}
-
 .moon-element{
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: absolute;
   justify-content: space-between;
+  gap: 40px;
   background-color: #000;
-  width: 50%;
-  height: 300px;
+  width: 40%;
+  height: 350px;
   border: solid #fff 1.5px;
   border-radius: 30px;
-  gap: 30px;
+  left: calc(37% - 110px);
 }
 
 .moon-element img{
   width: 50%;
-  right: 40px;
+  margin-left: 10px;
 }
 
 .moon-element h1{
   color: #fff;
   white-space: normal;
-}
-
-.moon-element h1{
   font-size: 33px;
-  opacity: 70%;
 }
 
-.carousel-moon i{
+#next-moon, #prev-moon{
   position: absolute;
-  cursor: pointer;
-  top: 50%;
-  font-size: 3rem;
-  text-align: center;
-  line-height: 46px;
+  top: 40%;
   color: #fff;
-  border-radius: 50%;
-  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 70px;
+  left: 16%;
 }
 
-.carousel-moon i:first-child{
-  left: 15%;
+#next-moon{
+  left: unset;
+  right: 20%;
 }
-
-.carousel-moon i:last-child{
-  right: 15%;
-} 
