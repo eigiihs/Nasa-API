@@ -32,6 +32,7 @@ html {
   color: #fff;
   font-size: 4vw;
   letter-spacing: 10px;
+  cursor: pointer;
 }
 
 .sublinhado {
@@ -84,9 +85,22 @@ html {
   margin-bottom: 5%;
 }
 
-/* /PLANETA TERRA */
+/* /terra */
 
 /* jupiter */
+.content-jupiter{
+  text-align: center;
+  margin: 0 auto;
+
+  font-size: 2vw;
+  color: #fff;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.content-jupiter p{
+  margin-top: 10%;
+}
 .arrow-2 {
   position: absolute;
   top: 32%;
@@ -141,5 +155,97 @@ html {
 }
 
 .sublinhado-marte:hover {
+  background-size: 100% 3px;
+}
+/* /marte */
+
+/* netuno */
+.sublinhado-netuno {
+  background-image: linear-gradient(90deg, #1C83C2, #203F72);
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  background-position: left bottom;
+  transition: background-size 500ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.sublinhado-netuno:hover {
+  background-size: 100% 3px;
+}
+/* /netuno */
+
+/* saturno */
+.content-saturno {
+  text-align: center;
+  margin: 0 auto;
+
+  font-size: 2vw;
+  color: #fff;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.content-saturno p{
+  margin-top: 2%;
+}
+
+.sublinhado-saturno {
+  background-image: linear-gradient(90deg, #393229, #71624F );
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  background-position: left bottom;
+  transition: background-size 500ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.sublinhado-saturno:hover {
+  background-size: 100% 3px;
+}
+/* /saturno */
+
+/* urano */
+.content-urano{
+  text-align: center;
+  margin: 0 auto;
+
+  font-size: 2vw;
+  color: #fff;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.sublinhado-urano {
+  background-image: linear-gradient(90deg, #7FC0C0, #236B76);
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  background-position: left bottom;
+  transition: background-size 500ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.sublinhado-urano:hover {
+  background-size: 100% 3px;
+}
+/* /urano */
+
+/* venus */
+.sublinhado-venus {
+  background-image: linear-gradient(90deg, #703307, #F3DA7F);
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  background-position: left bottom;
+  transition: background-size 500ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.sublinhado-venus:hover {
   background-size: 100% 3px;
 }

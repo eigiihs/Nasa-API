@@ -292,11 +292,11 @@ header {
 
 .carousel-planet-image a {
   display: inline-block; /* Adicione esta linha para tornar os links em linha com a largura desejada */
+  width: calc(100% / 3);
 }
 
 .carousel-planet-image img{
   object-fit: cover; /* especifica como um objeto (imagem, vídeo etc) deve ser redimensionado para se ajustar ao seu contêiner */
-  width: calc(100% / 3);
   width: 70%;
 }
 
@@ -304,8 +304,8 @@ header {
   margin-left: -15px;
 }
 
-.carousel-planet-image img:nth-child(6) {
-  width: 500px;
+.carousel-planet-image a:nth-child(6) {
+  width: 50%;
   height: auto; 
 }
 /* /carrossel planetas */
