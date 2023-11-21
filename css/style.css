@@ -3,145 +3,140 @@
   src: url("../fonts/nasalization-rg.ttf") format("truetype");
 }
 
-.html2{
-  color: #fff;
-}
-
+/* ========= configurando ========= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* corpo da pag */
+
+/* ========= estilizações gerais ========= */
 body {
   font-family: nasalization, sans-serif;
   background-color: #000;
 }
 
-/* scrollbar */
-::-webkit-scrollbar{
+/* ========= scrollbar ========= */
+::-webkit-scrollbar {
   width: 12px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: #000;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: #021526;
   border-radius: 5px;
 }
-/* /scrollbar */
 
-/* parte inicial da página */
+/* ========= início da página ========= */
 header {
-  position: relative;
+  position: relative; /* definindo que os elementos dentro do header terão uma posição relativa em relação ao container pai */
 }
 
 .title {
-  position: absolute; /* deixa a posição do título absoluta */
-  top: 45%; /* ajusta a posição verticalmente */
-  left: 50%; /* ajusta a posição horizontalmente */
-  transform: translate(-50%, -50%); /* centraliza o contêiner */
-  text-align: center; /* centraliza o texto horizontalmente */
-  color: #fff; /* cor do texto (ajuste conforme necessário) */
+  position: absolute; /* Deixa a posição do título absoluta */
+  top: 45%; /* Ajusta a posição verticalmente para que o título fique no centro */
+  left: 50%; /* Ajusta a posição horizontalmente para que o título fique no centro */
+  transform: translate(-50%, -50%); /* Centraliza o contêiner */
+  text-align: center; /* Centraliza o texto horizontalmente dentro do contêiner */
+  color: #fff; /* Define a cor do texto como branco (ajuste conforme necessário) */
 }
 
 .title h1 {
-  font-size: 6.5vw;
+  font-size: 6.5vw; /* Definindo o tamanho da fonte do título */
 }
 
 .title h2 {
-  font-size: 2.35vw;
+  font-size: 2.35vw; /* Defnindo o tamanho da fonte do subtítulo */
 }
 
 .title h1,
 .title h2 {
-  display: block; /* faz com que eles ocupem toda a largura do contêiner pai */
-  margin: 10px; /* ajuste as margens conforme necessário */
+  display: block; /* Faz com que ambos ocupem toda a largura do contêiner pai */
+  margin: 10px; /* Ajusta as margens dos títulos conforme necessário */
 }
 
 .background img {
   width: 100%;
   height: 20%;
-  background: linear-gradient(to top, #000, #000);
 }
-/* /parte inicial */
+/* ========= //início ========= */
 
-/* cards que abre */
+/* ========= Seção de informações sobre nós e sobre o site ========= */
 #infos {
-  display: flex; /* deixando o containe flexível */
-  flex-direction: column; /* organizando as divs de dentro em coluna */
-  text-align: center; /* alinhando os texto ao centro */
-  margin: 0 auto; /* deixando as divs no meio */
-  padding: 5% 80px; /* add espaçamento */
-  width: 50%; /* largura das divs */
-  margin-right: 360px;
+  display: flex; /* Deixa o container flexível */
+  flex-direction: column; /* Organiza as divs internas em coluna */
+  text-align: center; /* Alinha o texto ao centro */
+  margin: 0 auto; /* Centraliza as divs horizontalmente */
+  padding: 5% 80px; /* Adiciona espaçamento interno */
+  width: 50%; /* Define a largura das divs */
+  margin-right: 360px; /* Adiciona margem direita */
 }
 
 .info-about,
 .info-how {
-  position: relative; /* falando que a posição dos filhos vão ser relativamente a esta div */
+  position: relative; /* Define a posição dos filhos relativamente a esta div */
   margin: 20px;
-  width: 100%; /* largura de 100% do container pai */
+  width: 100%; /* Define a largura como 100% do container pai */
 }
 
 .info-about h2,
 .info-how h2 {
-  background-color: #021526;
-  border-radius: 15px;
-  padding: 24px;
-  color: #fff;
+  background-color: #021526; /* Cor de fundo do título */
+  border-radius: 15px; /* Adiciona bordas arredondadas */
+  padding: 24px; /* Adiciona espaçamento interno */
+  color: #fff; /* Cor do texto */
 }
 
 #toggle-about,
 #toggle-how {
-  position: absolute; /* definindo a posição da imagem como absoluta */
+  position: absolute; /* Define a posição da imagem como absoluta */
   width: 40px;
   top: 20px;
   right: 30px;
-  transition-duration: 0.4s; /* uma transição de 4 segundos para visualizar mudança */
+  transition-duration: 0.4s; /* Adiciona uma transição de 0.4 segundos para suavizar as mudanças */
 }
 
 #toggle-about:hover,
 #toggle-how:hover {
-  opacity: 0.5;
-  cursor: pointer;
+  opacity: 0.5; /* Define a opacidade ao passar o mouse */
+  cursor: pointer; /* Adiciona o ícone de cursor indicando que é clicável */
 }
 
 #toggle-about img,
 #toggle-how img {
-  width: 100%;
+  width: 100%; /* Define a largura da imagem como 100% */
 }
 
 .carousel-info {
-  margin-top: -10px;
-  padding: 30px 20px 30px 20px;
-  background-color: #021526;
-  border-radius: 0 0 15px 15px;
-  display: none;
-  transition-duration: 0.4s;
+  margin-top: -10px; /* Adiciona margem negativa para sobrepor a margem superior da div pai */
+  padding: 30px 20px 30px 20px; /* Adiciona espaçamento interno */
+  background-color: #021526; /* Cor de fundo */
+  border-radius: 0 0 15px 15px; /* Adiciona bordas arredondadas na parte inferior */
+  display: none; /* Inicialmente oculta a div */
+  transition-duration: 0.4s; /* Adiciona uma transição de 0.4 segundos para suavizar as mudanças */
 }
 
 .carousel-info-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+  display: flex; /* Layout flexível para organizar os elementos filhos */
+  align-items: center; /* Centraliza os elementos verticalmente dentro do contêiner flexível */
+  justify-content: space-between; /* Distribui os elementos filhos uniformemente ao longo do eixo principal */
+  gap: 10px; /* Adiciona um espaçamento de 10 pixels entre os elementos filhos */
 }
 
 .carousel-info-content img {
-  width: 35px;
-  transition-duration: 0.4s;
+  width: 35px; /* Define a largura das imagens */
+  transition-duration: 0.4s; /* Adiciona uma transição de 0.4 segundos para suavizar as mudanças */
 }
 
 .carousel-info-content img:hover {
-  opacity: 0.5;
-  cursor: pointer;
+  opacity: 0.5; /* Define a opacidade ao passar o mouse */
+  cursor: pointer; /* Adiciona o ícone de cursor indicando que é clicável */
 }
-
 .carousel-info-content img:first-child {
-  transform: rotate(180deg);
+  transform: rotate(180deg); /* Rotaciona a imagem em 180 graus */
 }
 
 .carousel-info-content-paragraphs {
@@ -150,18 +145,18 @@ header {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  overflow: hidden;
+  overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse a largura definida */
 }
 
 .carousel-info-content-paragraphs p {
-  min-width: 100%;
-  color: #fff;
-  transform: translateX(315px);
-  transition-duration: 0.4s;
+  min-width: 100%; /* Define a largura mínima como 100% */
+  color: #fff; /* Cor do texto */
+  transform: translateX(315px); /* Desloca horizontalmente o texto */
+  transition-duration: 0.4s; /* Adiciona uma transição de 0.4 segundos para suavizar as mudanças */
 }
 
 .carousel-info-indicators {
-  margin-top: 20px;
+  margin-top: 20px; /* Adiciona margem superior */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -170,17 +165,17 @@ header {
 
 .carousel-info-indicator-about,
 .carousel-info-indicator-how {
-  width: 9px;
-  height: 9px;
-  border-radius: 5px;
-  background-color: #fff;
+  width: 9px; /* Define a largura */
+  height: 9px; /* Define a altura */
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+  background-color: #fff; /* Cor de fundo */
 }
 
 .carousel-info-indicator-about:first-child,
 .carousel-info-indicator-how:first-child {
-  background-color: #08428c;
+  background-color: #265675; /* Cor de fundo específica para o primeiro indicador */
 }
-/* /card q abre */
+/* ========= //Seção infos ========= */
 
 /* estilização da search bar */
 .search-box {
@@ -236,13 +231,13 @@ header {
 /* /estilização da search bar */
 
 /* slogan */
-.slogan{
+.slogan {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.slogan p{
+.slogan p {
   color: #fff;
   width: 28%;
   text-align: center;
@@ -250,16 +245,19 @@ header {
 }
 
 /* parte dos planetas */
-#planetas{
+#planetas {
   margin-top: 5%;
 }
 
-.carousel-planets{
+.carousel-planets {
   width: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.carousel-planets i{
+.carousel-planets i {
   position: absolute;
   cursor: pointer;
   height: 46px;
@@ -273,15 +271,16 @@ header {
   transform: translateY(-50%);
 }
 
-.carousel-planets i:first-child{
+.carousel-planets i:first-child {
   left: 10px;
+  z-index: 1;
 }
 
-.carousel-planets i:last-child{
+.carousel-planets i:last-child {
   left: 95%;
 }
 
- .carousel-planet-image {
+.carousel-planet-image {
   white-space: nowrap;
   font-size: 0;
   cursor: pointer;
@@ -292,83 +291,142 @@ header {
 
 .carousel-planet-image a {
   display: inline-block; /* Adicione esta linha para tornar os links em linha com a largura desejada */
-  width: calc(100% / 3);
+  width: 25%;
 }
 
-.carousel-planet-image img{
+.carousel-planet-image img {
   object-fit: cover; /* especifica como um objeto (imagem, vídeo etc) deve ser redimensionado para se ajustar ao seu contêiner */
-  width: 70%;
+  width: 100%;
+
+  transition: 0.3s;
 }
 
-.carousel-planet-image img:first-child{
-  margin-left: -15px;
+.carousel-planet-image img:hover {
+  transform: scale(1.02);
 }
+/* //Planetas */
 
-.carousel-planet-image a:nth-child(6) {
-  width: 50%;
-  height: auto; 
-}
-/* /carrossel planetas */
-
-/* slogan lua */
-.slogan-lua{
+/* Slogan lua */
+.slogan-lua {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.slogan-lua p{
+.slogan-lua p {
   color: #fff;
   width: 28%;
   text-align: center;
   margin-top: 10%;
 }
-/* /slogan lua */
+/* //Slogan lua */
 
-/* carrossel lua */
-#moon{
-  margin-top: 10%;
+/* Parte das luas */
+#moon {
+  margin-top: 5%;
 }
 
-.list img:nth-child(3){
+.box-1,
+.box-2 {
+  display: flex;
+
+  color: #fff;
+}
+
+.moon {
+  display: flex;
+  white-space: normal;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  width: 40vw;
+  height: 25vw;
+
+  border: solid #fff 2px;
+  border-radius: 15px;
+
+  margin-bottom: 5%;
+  margin: 5%;
+
+  transition: 0.3s;
+}
+
+.moon h1 {
+  white-space: normal;
+
+  font-size: 2.9vw;
+}
+
+.items {
+  display: flex;
+
+  width: 100%;
+}
+
+.items img {
+  max-width: 45%;
+}
+
+.lua-nova {
   width: 40%;
-
+}
+/* Ajustando partes específicas que não se ajustaram as definições gerais */
+#lua-nova {
+  padding: 2.5%;
 }
 
-.carousel-moon{
-  width: 100%;
-  height: 100vh;
-
-  position: relative;
-  overflow: hidden;
+#lua-nova h1 {
+  margin-left: 3%;
 }
 
-.list{
-  width: 100%;
-  height: 100%;
+#lua-cheia {
+  padding: 4%;
 }
 
-.item{
-  position: absolute;
-  width: 100%;
-  height: 100%;
+#lua-cheia h1 {
+  margin-left: 5%;
 }
 
-.item img.moon{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 15;
-  pointer-events: none;
+.full-moon {
+  width: 45%;
 }
 
-.item.active{
-  display: block;
+#crescent-moon {
+  padding: 1.5%;
 }
 
-.item.hidden{
-  display: block;
-  pointer-events: none;
-  z-index: 1;
+#crescent-moon h1 {
+  margin-left: 3.5%;
 }
+
+.lua-crescente {
+  width: 45%;
+}
+
+/* Efeito hover */
+.moon:hover {
+  transform: scale(1.02);
+}
+/* //Lua */
+
+/* Slogan universo */
+.slogan-universo {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan-universo p {
+  color: #fff;
+  width: 28%;
+  text-align: center;
+  margin-top: 5%;
+  transition: 0.3s;
+}
+
+.slogan-universo p:hover {
+  opacity: 80%;
+}
+/* //Slogan universo */

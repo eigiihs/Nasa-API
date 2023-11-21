@@ -80,7 +80,7 @@ const carouselArrowBackHow = document.getElementById("arrow-back-how");
 const carouselArrowNextHow = document.getElementById("arrow-next-how");
 const paragraphsHow = document.querySelectorAll(".carousel-paragraph-how");
 const indicatorsHow = document.querySelectorAll(".carousel-info-indicator-how");
-let paragraphHowIndicator = 0;
+let paragraphHowIndicator = 0;  
 
 carouselArrowBackHow.addEventListener("click", () => {
   if (paragraphHowIndicator === 1) {
@@ -122,16 +122,16 @@ const carouselAnimation = (paragraphs, translateX) => {
 // função para colorir os botões
 const carouselColorIndicators = (indicators, paragraphIndicator) => {
   if (paragraphIndicator === 0) {
-    indicators[0].style.backgroundColor = "#08428C";
+    indicators[0].style.backgroundColor = "#265675";
     indicators[1].style.backgroundColor = "#FFF";
     indicators[2].style.backgroundColor = "#FFF";
   } else if (paragraphIndicator === 1) {
     indicators[0].style.backgroundColor = "#FFF";
-    indicators[1].style.backgroundColor = "#08428C";
+    indicators[1].style.backgroundColor = "#6265675";
     indicators[2].style.backgroundColor = "#FFF";
   } else {
     indicators[0].style.backgroundColor = "#FFF";
     indicators[1].style.backgroundColor = "#FFF";
-    indicators[2].style.backgroundColor = "#08428C";
+    indicators[2].style.backgroundColor = "#6265675";
   }
 };
