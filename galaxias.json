@@ -1,0 +1,124 @@
+{
+    "galaxias": [
+        {
+            "id": "1",
+            "title": "Galáxia Via-Láctea",
+            "image": "https://www.nasa.gov/wp-content/uploads/2020/10/roadmap-to-the-milky-way.jpg?resize=1424,1536"
+        },
+        {
+            "id": "2",
+            "title": "Galáxia de Andrômeda",
+            "image": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA15416.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Galáxia do Triângulo (Messier 33)",
+            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/archives_m33_0.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Galáxia de Bode (Messier 81)",
+            "image": "https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m81-print-jpg.webp"
+        },
+        {
+            "id": "5",
+            "title": "Galáxia do Redemoinho (Messier 51)",
+            "image": "https://spacetoday.com.br/wp-content/uploads/2015/05/M51-with-12hours_AOXLumPugh.jpg"
+        },
+        {
+            "id": "6",
+            "title": "Galáxia do Sombreiro (Messier 104)",
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/sombrero-galaxy-hubble-jpg.webp%3Fw=2000"
+        },
+        {
+            "id": "7",
+            "title": "Galáxia do Girassol (Messier 63)",
+            "image": "https://apod.nasa.gov/apod/image/1403/M63_PS1V10snyder.jpg"
+        },
+        {
+            "id": "8",
+            "title": "Galáxia do Cata-Vento (Messier 101)",
+            "image": "https://apod.nasa.gov/apod/image/1104/M101HST-GendlerM.jpg"
+        },
+        {
+            "id": "9",
+            "title": "Galáxia do Olho Negro (Messier 64)",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Blackeyegalaxy.jpg"
+        },
+        {
+            "id": "10",
+            "title": "Galáxia dos Fogos de Artifício (NGC 6946)",
+            "image": "https://spacetoday.com.br/wp-content/uploads/2018/02/NGC6946-Subaru-GendlerL-1002x1024.jpg"
+        },
+        {
+            "id": "11",
+            "title": "Galáxia do Escultor (NGC 253)",
+            "image": "https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030980/STScI-J-NGC253-VIS_3840x2160.png"
+        },
+        {
+            "id": "12",
+            "title": "Galáxia de Barnard (NGC 6822)",
+            "image": "https://apod.nasa.gov/apod/image/1302/NGC6822_L_HaR_GB_final2000.jpg"
+        },
+        {
+            "id": "13",
+            "title": "Grande Nuvem de Magalhães",
+            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/721196main_721020main_heic1301a_full.jpg"
+        },
+        {
+            "id": "14",
+            "title": "Pequena Nuvem de Magalhães",
+            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/pia16884_-_taken_under_the_wing_of_the_small_magellanic_cloud.jpg"
+        },
+        {
+            "id": "15",
+            "title": "Galáxia Anã da Fênix",
+            "image": "https://spacetoday.com.br/wp-content/uploads/2018/09/potw1838a.jpg"
+        },
+        {
+            "id": "16",
+            "title": "Galáxia Anã de Antlia (NGC 3109)",
+            "image": "https://smd-cms.nasa.gov/wp-content/uploads/2023/04/627360main_potw1209a-jpg.webp"
+        },
+        {
+            "id": "17",
+            "title": "Galáxia do Cigarro (Messier 82)",
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m82-jpg.webp%3Fw=2000"
+        },
+        {
+            "id": "18",
+            "title": "Messier 110",
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m110.png%3Fw=1414"
+        },
+        {
+            "id": "19",
+            "title": "Messier 87",
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m87-full_jpg-jpg.webp%3Fw=2000"
+        },
+        {
+            "id": "20",
+            "title": "Messier 32",
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m32_acs_field2_3b_flat_gapfill_final-jpg.webp%3Fw=1932"
+        },
+        {
+            "id": "21",
+            "title": "Galáxia do Girino",
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/148678main_image_feature_573_ys_full-jpg.webp%3Fw=1024"
+        },
+        {
+            "id": "22",
+            "title": "NGC 3455",
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/potw1415a-jpg.webp%3Fw=1280"
+        },
+        {
+            "id": "23",
+            "title": "Caldwell 51",
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/ic1613_wfc3_mos_1pi_flat_final-jpg.webp%3Fw=2000"
+        },
+        {
+            "id": "24",
+            "title": "Centaurus A",
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/613778main_hs-2011-18-a-xlarge_web_full-jpg.webp%3Fw=1280"
+        }
+    ]
+}
