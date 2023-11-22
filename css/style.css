@@ -59,10 +59,9 @@ header {
 }
 
 .background img {
-  width: 100%;
-  height: 20%;
+  width: 100%; /* definindo a largura da imagem para o tamanho da tela inteira */
+  height: 20%; /* definindo a altura da imagem */
 }
-/* ========= //início ========= */
 
 /* ========= Seção de informações sobre nós e sobre o site ========= */
 #infos {
@@ -175,62 +174,64 @@ header {
 .carousel-info-indicator-how:first-child {
   background-color: #265675; /* Cor de fundo específica para o primeiro indicador */
 }
-/* ========= //Seção infos ========= */
 
-/* estilização da search bar */
+/* ========= search bar ========= */
 .search-box {
   cursor: pointer;
-  position: absolute;
-  left: 50%;
-  margin-top: 2%;
-  transform: translateX(-50%);
-  background-color: #032340;
-  height: 80px;
-  padding: 30px;
-  border-radius: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 2;
+  position: absolute; /* posição absoluta para posicionar o elemento */
+  left: 50%; /* posiciona o elemento horizontalmente no centro do pai */
+  transform: translateX(-50%); /* centraliza o elemento horizontalmente */
+  background-color: #032340; /* define a cor de fundo */
+  height: 18vh; /* define a altura do elemento */
+  padding: 30px; /* adiciona preenchimento interno */
+  border-radius: 90px; /* adiciona bordas arredondadas */
+  display: flex; 
+  justify-content: space-between; /* espaço uniforme entre os itens */
+  align-items: center; /* centraliza verticalmente os itens */
+  z-index: 2; /* define a ordem de empilhamento do elemento */
 }
 
+/* oculta o seletor de data para navegadores Webkit */
 .search-date::-webkit-calendar-picker-indicator {
   display: none;
 }
 
+/* estilizando o campo de data */
 .search-date {
   cursor: pointer;
-  color: #fff;
-  font-size: 1vw;
-  font-family: nasalization, sans-serif;
-  background: none;
-  border: none;
-  outline: none;
-  width: 0;
-  transition: 0.5s ease-in-out;
+  color: #fff; /* define a cor do texto */
+  font-size: 1vw; /* define o tamanho da fonte */
+  font-family: nasalization, sans-serif; /* define a fonte */
+  background: none; /* remove o plano de fundo */
+  border: none; /* remove a borda */
+  outline: none; /* remove o contorno ao receber foco */
+  width: 0; /* define a largura inicial como zero */
+  transition: 0.5s ease-in-out; /* adiciona uma transição suave */
 }
 
+/* estilizando o ícone de pesquisa */
 .search-box img {
-  height: 30px;
-  width: 30px;
+  height: 30px; /* Define a altura do ícone */
+  width: 30px; /* Define a largura do ícone */
 }
 
+/* estilizando o botão de pesquisa */
 .search-btn {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #032340;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 40px; /* define a largura do botão */
+  height: 40px; /* define a altura do botão */
+  border-radius: 50%; /* adiciona bordas arredondadas para criar um círculo */
+  background-color: #032340; /* define a cor de fundo do botão */
+  display: flex; /* exibe os elementos como um flex container */
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */
 }
 
+/* Ao passar o mouse sobre .search-box, aumenta a largura de .search-date */
 .search-box:hover > .search-date {
-  width: 240px;
+  width: 30vw; /* aumenta a largura do campo de data */
 }
-/* /estilização da search bar */
 
-/* slogan */
+/* ========= slogan ========= */
 .slogan {
   display: flex;
   justify-content: center;
@@ -244,7 +245,7 @@ header {
   margin-top: 15%;
 }
 
-/* parte dos planetas */
+/* ========= parte dos planetas ========= */
 #planetas {
   margin-top: 5%;
 }
@@ -304,9 +305,8 @@ header {
 .carousel-planet-image img:hover {
   transform: scale(1.02);
 }
-/* //Planetas */
 
-/* Slogan lua */
+/* ========= slogan lua ========= */
 .slogan-lua {
   display: flex;
   justify-content: center;
@@ -319,9 +319,8 @@ header {
   text-align: center;
   margin-top: 10%;
 }
-/* //Slogan lua */
 
-/* Parte das luas */
+/* ========= Parte das luas ========= */
 #moon {
   margin-top: 5%;
 }
@@ -371,7 +370,7 @@ header {
 .lua-nova {
   width: 40%;
 }
-/* Ajustando partes específicas que não se ajustaram as definições gerais */
+/* ajustando partes específicas que não se ajustaram as definições gerais */
 #lua-nova {
   padding: 2.5%;
 }
@@ -404,13 +403,12 @@ header {
   width: 45%;
 }
 
-/* Efeito hover */
+/* efeito hover */
 .moon:hover {
   transform: scale(1.02);
 }
-/* //Lua */
 
-/* Slogan universo */
+/* ========= Slogan universo =========*/
 .slogan-galaxia {
   cursor: pointer;
   display: flex;
@@ -429,9 +427,8 @@ header {
 .slogan-galaxia p:hover {
   opacity: 80%;
 }
-/* //Slogan universo */
 
-/* galaxia */
+/* ========= galáxia ========= */
 #galaxy{
   margin: 5% 0 5% 0;
 }
@@ -454,6 +451,5 @@ header {
 
 .button-galaxy a:hover{
   background-color: transparent;
-  border: solid #021526 2px;
+  border: solid #89bad9 2px;
 }
-/* //galaxia */

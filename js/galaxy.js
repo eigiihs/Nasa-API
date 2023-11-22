@@ -12,7 +12,7 @@ fetch("galaxias.json")
 
         randomGalaxy.forEach(galaxy => {
 
-            const myElement = document.createElement('div')
+            const myElement = document.createElement('div');
 
             myElement.innerHTML = `
             <div class="cards"> <!-- Div que contém o resultado -->
@@ -22,27 +22,26 @@ fetch("galaxias.json")
 
             <h3 class="title">${galaxy.title}</h3> <!-- Título da imagem -->
 
-            <img src="img/arrow.svg" alt="" id="arrow-down"> <!-- Ícone de seta para baixo -->
-           
-            <p class="description"> <!-- Descrição do resultado -->
-                ${galaxy.description}
-            </p>
             </div>
             `
 
-            ElementDad.appendChild(myElement)
+            ElementDad.appendChild(myElement);
+
+            myElement.addEventListener('click', () =>{
+
+                window.location.href = `galaxye-example.html?id=${galaxy.id}`;
+            })
 
             /* ========= Tratando o menu dropdown ========= */
             // Seleciona todos os elementos com a classe "resultado"
             var elementosResultado = document.querySelectorAll('.cards');
 
             // Para cada elemento com a classe "resultado", adiciona um ouvinte de evento de clique
-            elementosResultado.forEach(function (cards) {
+             elementosResultado.forEach(function (cards) { 
                 // Quando um elemento com a classe "resultado" é clicado, é adicionado a classe "ativa"
                 cards.addEventListener('click', function () {
                     cards.classList.toggle('ativa');
                 });
             });
         });
-    })
-
+    })  

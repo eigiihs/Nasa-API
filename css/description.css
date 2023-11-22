@@ -1,0 +1,76 @@
+/* Define a fonte "nasalization" para uso no documento */
+@font-face {
+  font-family: "nasalization";
+  src: url("../fonts/nasalization-rg.ttf") format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: nasalization, sans-serif;
+}
+.cabecalho {
+  display: flex; /* Exibe os itens do cabeçalho em linha */
+  justify-content: space-between; /* Espaço entre os itens do cabeçalho */
+}
+
+.cabecalho img {
+  width: 3vw; /* Define a largura da imagem */
+  margin: 40px 50px 0px 60px; /* Define as margens da imagem */
+}
+
+header img:hover {
+  opacity: 0.5; /* Define a opacidade para 50% */
+  transition: 0.4s ease-in-out; /* Adiciona uma transição suave ao passar o mouse */
+}
+
+#show {
+  margin-bottom: 5%;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8vw;
+  padding: 2vw;
+}
+
+.title h1 {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.image {
+  margin-top: 1%;
+}
+
+.image img {
+  width: 60%;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  padding: 2vw;
+  border: solid #fff 1px;
+}
+
+.description {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  width: 55vw;
+  margin-top: 5%;
+}
+
+.title h1:hover {
+  opacity: 0.6;
+}
