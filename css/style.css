@@ -72,13 +72,13 @@ header {
   margin: 0 auto; /* Centraliza as divs horizontalmente */
   padding: 5% 80px; /* Adiciona espaçamento interno */
   width: 50%; /* Define a largura das divs */
-  margin-right: 360px; /* Adiciona margem direita */
+  margin-right: 27vw; /* Adiciona margem direita */
 }
 
 .info-about,
 .info-how {
   position: relative; /* Define a posição dos filhos relativamente a esta div */
-  margin: 20px;
+  margin: 1.5vw;
   width: 100%; /* Define a largura como 100% do container pai */
 }
 
@@ -86,16 +86,16 @@ header {
 .info-how h2 {
   background-color: #021526; /* Cor de fundo do título */
   border-radius: 15px; /* Adiciona bordas arredondadas */
-  padding: 24px; /* Adiciona espaçamento interno */
+  padding: 2vw; /* Adiciona espaçamento interno */
   color: #fff; /* Cor do texto */
 }
 
 #toggle-about,
 #toggle-how {
   position: absolute; /* Define a posição da imagem como absoluta */
-  width: 40px;
-  top: 20px;
-  right: 30px;
+  width: 3vw;
+  top: 1.5vw;
+  right: 3vw;
   transition-duration: 0.4s; /* Adiciona uma transição de 0.4 segundos para suavizar as mudanças */
 }
 
@@ -112,7 +112,7 @@ header {
 
 .carousel-info {
   margin-top: -10px; /* Adiciona margem negativa para sobrepor a margem superior da div pai */
-  padding: 30px 20px 30px 20px; /* Adiciona espaçamento interno */
+  padding: 2vw 1vw 2vw 1vw; /* Adiciona espaçamento interno */
   background-color: #021526; /* Cor de fundo */
   border-radius: 0 0 15px 15px; /* Adiciona bordas arredondadas na parte inferior */
   display: none; /* Inicialmente oculta a div */
@@ -411,14 +411,14 @@ header {
 /* //Lua */
 
 /* Slogan universo */
-.slogan-universo {
+.slogan-galaxia {
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.slogan-universo p {
+.slogan-galaxia p {
   color: #fff;
   width: 28%;
   text-align: center;
@@ -426,7 +426,34 @@ header {
   transition: 0.3s;
 }
 
-.slogan-universo p:hover {
+.slogan-galaxia p:hover {
   opacity: 80%;
 }
 /* //Slogan universo */
+
+/* galaxia */
+#galaxy{
+  margin: 5% 0 5% 0;
+}
+
+.button-galaxy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-galaxy a{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  padding: 4vw;
+  background-color: #021526;
+  border-radius: 5vw;
+  transition: 0.5s;
+}
+
+.button-galaxy a:hover{
+  background-color: transparent;
+  border: solid #021526 2px;
+}
+/* //galaxia */

@@ -42,17 +42,23 @@ body {
 .cabecalho h1 {
   color: #fff; /* Define a cor do texto como branco */
   font-size: 3vw; /* Define o tamanho da fonte */
-  margin: 40px 0px 0px 50px; /* Define as margens do título */
+  margin: 40px 70px 0px 50px; /* Define as margens do título */
 }
 
 .cabecalho img {
   width: 3vw; /* Define a largura da imagem */
-  margin: 40px 50px 0px 0px; /* Define as margens da imagem */
+  margin: 40px 50px 0px 60px; /* Define as margens da imagem */
+  transition-duration: 0.4s;
+}
+
+.cabecalho img:hover{
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 #arrow-down:hover {
   opacity: 0.5; /* Define a opacidade para 50% */
-  transition: 0.5s ease-in-out; /* Adiciona uma transição suave ao passar o mouse */
+  transition: 0.7s ease-in-out; /* Adiciona uma transição suave ao passar o mouse */
 }
 
 /* ========= card de resultado ========= */

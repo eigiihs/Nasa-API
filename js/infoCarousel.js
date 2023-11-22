@@ -127,11 +127,11 @@ const carouselColorIndicators = (indicators, paragraphIndicator) => {
     indicators[2].style.backgroundColor = "#FFF";
   } else if (paragraphIndicator === 1) {
     indicators[0].style.backgroundColor = "#FFF";
-    indicators[1].style.backgroundColor = "#6265675";
+    indicators[1].style.backgroundColor = "#265675";
     indicators[2].style.backgroundColor = "#FFF";
   } else {
     indicators[0].style.backgroundColor = "#FFF";
     indicators[1].style.backgroundColor = "#FFF";
-    indicators[2].style.backgroundColor = "#6265675";
+    indicators[2].style.backgroundColor = "#265675";
   }
 };

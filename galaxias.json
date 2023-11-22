@@ -3,122 +3,146 @@
         {
             "id": "1",
             "title": "Galáxia Via-Láctea",
-            "image": "https://www.nasa.gov/wp-content/uploads/2020/10/roadmap-to-the-milky-way.jpg?resize=1424,1536"
+            "image": "https://www.nasa.gov/wp-content/uploads/2020/10/roadmap-to-the-milky-way.jpg?resize=1424,1536",
+            "description": "A Via Láctea é uma galáxia do tipo espiral normal, formada por um bojo, quatro enormes braços principais que compõem o seu disco e um amplo halo galático que a envolve. É nela que está localizado o Sistema Solar, conjunto de corpos celestes do qual o planeta Terra faz parte. Ela se estende por um diâmetro de aproximadamente 100.000 anos-luz, sendo que cada ano-luz corresponde a 9,46 trilhões de quilômetros. No centro da Via Láctea, a 26 mil anos-luz do planeta Terra, fica um buraco negro supermassivo denominado Sagitário A."
         },
         {
             "id": "2",
-            "title": "Galáxia de Andrômeda",
-            "image": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA15416.jpg"
+            "title": "Galáxia de Andrômeda (Messier 31)",
+            "image": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA15416.jpg",
+            "description": "A Galáxia de Andrômeda recebe esse nome por se localizar na constelação de Andrômeda, á 2,54 milhões de anos-luz do Planeta Terra. É provavelmente a galáxia mais massiva do Grupo Local, com cerca de 1 trilhão de estrelas, sua magnitude aparente é de 3,4, ou seja, é brilhante o suficiente para ser vista a olho nu em noites sem Lua e sem poluição luminosa. Seu tamanho é de aproximadamente 220.000 anos-luz de diâmetro e sua massa é de 1.230 bilhões de massas solares. Curiosamente, Andrômeda tem um núcleo duplo, com duas concentrações de massa chamadas P1 e P2, separados por 4,2 anos-luz de distância. A mais fraca (P2) abriga o buraco negro central."
         },
         {
             "id": "3",
             "title": "Galáxia do Triângulo (Messier 33)",
-            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/archives_m33_0.jpg"
+            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/archives_m33_0.jpg",
+            "description": "A galáxia do Triângulo, também conhecida como Messier 33, situa-se a aproximadamente 3 milhões de anos-luz de nós, e pode ser observada na constelação do Triângulo. É uma galáxia espiral com cerca de 50.000 anos-luz de diâmetro. Não se conhece ao certo o número de estrelas que fazem parte desta galáxia, porém estima-se que poderá ser um número na ordem das 40 mil milhões de estrelas. M33 tem uma magnitude aparente relativamente brilhante de 5,7, tornando-o um dos objetos mais distantes que observadores atentos podem observar a olho nu."
         },
         {
             "id": "4",
             "title": "Galáxia de Bode (Messier 81)",
-            "image": "https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m81-print-jpg.webp"
+            "image": "https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m81-print-jpg.webp",
+            "description": "A Galáxia de Bode, também conhecida por M81 e por NGC 3031. Está localizado a 11,6 milhões de anos-luz da Terra, na constelação da Ursa Maior, tem uma magnitude aparente de 6,9, e um diâmetro na ordem dos 90.000 anos-luz, ou seja, um pouco menor que o diâmetro da nossa Via Láctea. Os braços espirais da galáxia, que serpenteiam até ao seu núcleo, são constituídos por estrelas jovens, azuladas e quentes, formadas nos últimos milhões de anos. O bojo central da galáxia contém estrelas muito mais antigas e vermelhas. Um buraco negro de 70 milhões de massas solares reside no centro de M81 e tem cerca de 15 vezes a massa do buraco negro central da Via Láctea."
         },
         {
             "id": "5",
             "title": "Galáxia do Redemoinho (Messier 51)",
-            "image": "https://spacetoday.com.br/wp-content/uploads/2015/05/M51-with-12hours_AOXLumPugh.jpg"
+            "image": "https://spacetoday.com.br/wp-content/uploads/2015/05/M51-with-12hours_AOXLumPugh.jpg",
+            "description": "A Galáxia do Redemoinho, ou Messier 51, está localizada a 31 milhões de anos-luz da Terra, na constelação de Canes Venatici. Tem uma magnitude aparente de 8,4 e pode ser avistado com um pequeno telescópio mais facilmente durante o mês de maio. O diâmetro da galáxia do Redemoinho situa-se na ordem dos 60 milhões de anos-luz. Os braços graciosos e sinuosos da majestosa galáxia espiral são longas faixas de estrelas e gás misturadas com poeira. Estes braços têm um propósito importante: são fábricas de formação de estrelas, comprimindo gás hidrogênio e criando aglomerados de novas estrelas."
         },
         {
             "id": "6",
             "title": "Galáxia do Sombreiro (Messier 104)",
-            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/sombrero-galaxy-hubble-jpg.webp%3Fw=2000"
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/sombrero-galaxy-hubble-jpg.webp%3Fw=2000",
+            "description": "A galáxia do Sombreiro (Messier 104) é uma galáxia espiral com núcleo brilhante rodeado por um disco achatado de material escuro. Está localizado a 28 milhões de anos-luz de distância, na constelação de Virgem, e com uma massa igual a 800 bilhões de sóis, é um dos objetos mais massivos do aglomerado de galáxias de Virgem. Sua magnitude aparente é de 8, a galáxia Sombrero está além do limite da visibilidade a olho nu, mas pode ser vista através de pequenos telescópios mais facilmente durante o mês de maio."
         },
         {
             "id": "7",
             "title": "Galáxia do Girassol (Messier 63)",
-            "image": "https://apod.nasa.gov/apod/image/1403/M63_PS1V10snyder.jpg"
+            "image": "https://apod.nasa.gov/apod/image/1403/M63_PS1V10snyder.jpg",
+            "description": "Messier 63, também conhecida como Galáxia do Girassol, é uma galáxia espiral floculenta, estas não têm braços espirais bem definidos, em vez disso, parecem ter muitos braços descontínuos. A formação de novas estrelas é essencial para a evolução das galáxias, mas os astrônomos ainda não entendem exatamente como ele ocorre nas galáxias floculentas. A galáxia do Girassol está localizada a cerca de 27 milhões de anos-luz da Terra, na constelação de Canes Venatici. Tem uma magnitude aparente de 9,3 e aparece como uma mancha fraca de luz em pequenos telescópios. A melhor época para observar M63 é durante maio. Estima-se que o diâmetro da M63 seja de aproximadamente 65.000 anos-luz."
         },
         {
             "id": "8",
             "title": "Galáxia do Cata-Vento (Messier 101)",
-            "image": "https://apod.nasa.gov/apod/image/1104/M101HST-GendlerM.jpg"
+            "image": "https://apod.nasa.gov/apod/image/1104/M101HST-GendlerM.jpg",
+            "description": "Com aproximadamente 170000 anos-luz de diâmetro essa galáxia é enorme, quase com o dobro de tamanho da Via Láctea. A M101 é considerada uma galáxia espiral de livro, tradicional, com os braços bem proeminentes, que é observada de frente e é classificada como sendo uma galáxia do tipo Sc. E está localizada cerca de 20.870.000 anos-luz da Terra."
         },
         {
             "id": "9",
             "title": "Galáxia do Olho Negro (Messier 64)",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Blackeyegalaxy.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Blackeyegalaxy.jpg",
+            "description": "Essa bela e brilhante galáxia espiral é a Messier 64, normalmente chamada de Galáxia do Olho Escuro ou a Galáxia da Bela Adormecida, devido a sua aparência de pálpebras pesadas em visões telescópicas. A M64 está localizada a aproximadamente 17 milhões de anos-luz de distância da Terra na constelação do céu do hemisfério norte Coma Berenices. Observações mostram que a M64 é na verdade composta por dois sistemas concêntricos, em rotação contrária de estrelas, um localizado numa parte interna e outro se estendendo a aproximadamente 40000 anos-luz de raio, os dois rodando em direções opostas."
         },
         {
             "id": "10",
             "title": "Galáxia dos Fogos de Artifício (NGC 6946)",
-            "image": "https://spacetoday.com.br/wp-content/uploads/2018/02/NGC6946-Subaru-GendlerL-1002x1024.jpg"
+            "image": "https://spacetoday.com.br/wp-content/uploads/2018/02/NGC6946-Subaru-GendlerL-1002x1024.jpg",
+            "description": "A grande e bela galáxia espiral está localizada a apenas 10 milhões de anos-luz de distância da Terra, atrás de um véu de um poeira e estrelas na constelação de Cepheus. Com aproximadamente 40000 anos-luz de diâmetro, a NGC 6946 é também conhecida como Galáxia dos Fogos de Artifício."
         },
         {
             "id": "11",
             "title": "Galáxia do Escultor (NGC 253)",
-            "image": "https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030980/STScI-J-NGC253-VIS_3840x2160.png"
+            "image": "https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030980/STScI-J-NGC253-VIS_3840x2160.png",
+            "description": "A NGC 253 também é conhecida como a Galáxia do Escultor, e é a mais brilhante do Grupo de Galáxias do Escultor, localizada na constelação de mesmo nome e a uma distância de 13 milhões de anos-luz da Terra. A Galáxia do Escultor é conhecida como uma galáxia de explosão estelar devido a sua alta taxa de formação de estrelas, um efeito disso é um vento muito forte que emana da galáxia, na realidade uma corrente de material energético que tem origem no centro da galáxia e que vaga pelo espaço sideral."
         },
         {
             "id": "12",
             "title": "Galáxia de Barnard (NGC 6822)",
-            "image": "https://apod.nasa.gov/apod/image/1302/NGC6822_L_HaR_GB_final2000.jpg"
+            "image": "https://apod.nasa.gov/apod/image/1302/NGC6822_L_HaR_GB_final2000.jpg",
+            "description": "A pequena galáxia NGC 6822, também conhecida como Galáxia de Barnard. Para além dos ricos campos estelares na constelação de Sagittarius, a NGC 6822, está localizada a meros 1.5 milhões de anos-luz de distância, sendo um dos membros do nosso Grupo Local de Galáxias. Com aproximadamente 7000 anos-luz de diâmetro, a galáxia anã irregular, é vista sendo preenchida com jovens estrelas azuis e apresenta tentáculos rosados brilhantes de hidrogênio representando as regiões de formação de estrelas, contribuindo para a ciência das Pequenas Coisas."
         },
         {
             "id": "13",
             "title": "Grande Nuvem de Magalhães",
-            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/721196main_721020main_heic1301a_full.jpg"
+            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/721196main_721020main_heic1301a_full.jpg",
+            "description": "A quase 200 mil anos-luz da Terra, a Grande Nuvem de Magalhães, uma galáxia satélite da Via Láctea, flutua no espaço, numa longa e lenta dança em torno da nossa galáxia. Vastas nuvens de gás dentro dele colapsam lentamente para formar novas estrelas. O seu diâmetro é vinte vezes menor do que o da Via Láctea e o seu número de estrelas dez vezes menor. Embora parte de sua morfologia seja irregular, a Grande Nuvem de Magalhães tem traços de uma estrutura espiralada."
         },
         {
             "id": "14",
             "title": "Pequena Nuvem de Magalhães",
-            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/pia16884_-_taken_under_the_wing_of_the_small_magellanic_cloud.jpg"
+            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/pia16884_-_taken_under_the_wing_of_the_small_magellanic_cloud.jpg",
+            "description": "A Pequena Nuvem de Magalhães, ou SMC, é uma pequena galáxia a cerca de 200.000 anos-luz de distância que orbita a nossa própria galáxia espiral, a Via Láctea. Classificada como galáxia irregular anã, a PNM tem aproximadamente 7000 anos luz, contém algumas centenas de milhões de estrelas, e está aproximadamente a 199.000 anos-luz de distância da Terra."
         },
         {
             "id": "15",
             "title": "Galáxia Anã da Fênix",
-            "image": "https://spacetoday.com.br/wp-content/uploads/2018/09/potw1838a.jpg"
+            "image": "https://spacetoday.com.br/wp-content/uploads/2018/09/potw1838a.jpg",
+            "description": "A Anã da Fênix é um objeto único, uma vez que não a conseguimos classificar segundo o esquema usual das galáxias anãs. Segundo a sua forma esta galáxia deveria ser classificada como uma galáxia anã esferoidal — objetos que não contêm gás suficiente para formar novas estrelas — no entanto, vários estudos mostraram que esta galáxia possui uma nuvem de gás associada, o que aponta para formação estelar recente e consequentemente uma população de estrelas   Atualmente, está a 1,44 milhões de anos-luz da Terra. Chama-se assim porque está situada na constelação de Phoenix.jovens."
         },
         {
             "id": "16",
-            "title": "Galáxia Anã de Antlia (NGC 3109)",
-            "image": "https://smd-cms.nasa.gov/wp-content/uploads/2023/04/627360main_potw1209a-jpg.webp"
+            "title": "Galáxia Olho da Agulha (Caldwell 62)",
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/c62-1-jpg.webp%3Fw=1280",
+            "description": "Caldwell 62 (também conhecida como NGC 247) é uma galáxia espiral anã localizada a cerca de 11 milhões de anos-luz de distância, no Grupo do Escultor - o grupo de galáxias mais próximo do nosso. A galáxia está localizado na constelação de Cetus e é melhor visualizado na primavera no hemisfério sul. Sua magnitude de 9,2 o torna um alvo um tanto desafiador. A galáxia recebeu o apelido de Olho da Agulha porque uma extremidade dela apresenta um estranho vazio de estrelas. Esse buraco em Caldwell é um grande mistério para os cientistas. Há uma escassez de gás naquela parte da galáxia, o que significa que não há muito material a partir do qual novas estrelas possam se formar. Ainda não se sabe como esta estranha estrutura se formou."
         },
         {
             "id": "17",
             "title": "Galáxia do Cigarro (Messier 82)",
-            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m82-jpg.webp%3Fw=2000"
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m82-jpg.webp%3Fw=2000",
+            "description": "Messier 82 foi descoberta pelo astrônomo alemão Johann Elert Bode em 1774. Localizada a 12 milhões de anos-luz da Terra, na constelação da Ursa Maior, M82 tem uma magnitude aparente de 8,4 e é melhor observada em abril. Embora seja visível como uma mancha de luz com binóculos, são necessários telescópios maiores para resolver o núcleo da galáxia. É a galáxia mais brilhante no infravermelho no céu noturno: emite mais radiação infravermelha do que radiação visível."
         },
         {
             "id": "18",
             "title": "Messier 110",
-            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m110.png%3Fw=1414"
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m110.png%3Fw=1414",
+            "description": "Localizada na constelação de Andrômeda, a Messier 110 foi descoberta em 1773 por Charles Messier e está a aproximadamente 2.690.000 anos-luz de distância da Terra com magnitude 8.                                                                                                                    M110 é uma galáxia elíptica, o que significa que possui uma estrutura suave e quase sem características. Galáxias elípticas não possuem braços ou regiões de formação estelar. Muitas vezes são consideradas “mortas” em comparação com as galáxias espirais, e as estrelas nas galáxias elípticas são frequentemente mais antigas do que as de outras galáxias. No entanto, há evidências de que existe uma população de jovens estrelas azuis no centro de M110. Esta pequena galáxia elíptica tem aproximadamente 10 mil milhões de estrelas, bem como pelo menos oito aglomerados globulares (o mais brilhante dos quais pode ser visto com grandes telescópios)."
         },
         {
             "id": "19",
             "title": "Messier 87",
-            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m87-full_jpg-jpg.webp%3Fw=2000"
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m87-full_jpg-jpg.webp%3Fw=2000",
+            "description": "A galáxia elíptica Messier 87 é o lar de vários trilhões de estrelas, um buraco negro supermassivo e uma família de cerca de 15.000 aglomerados estelares globulares. O monstruoso M87 é o membro dominante do aglomerado de galáxias vizinho de Virgem, que contém cerca de 2.000 galáxias. Descoberta em 1781 por Charles Messier, esta galáxia está localizada a 54 milhões de anos-luz de distância da Terra, na constelação de Virgem. Tem uma magnitude aparente de 9,6 e pode ser observado com um pequeno telescópio."
         },
         {
             "id": "20",
             "title": "Messier 32",
-            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m32_acs_field2_3b_flat_gapfill_final-jpg.webp%3Fw=1932"
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/m32_acs_field2_3b_flat_gapfill_final-jpg.webp%3Fw=1932",
+            "description": "A M32 foi descoberta pelo astrônomo francês Guillaume Le Gentil em 1749, sendo assim a primeira galáxia elíptica da história a ser descoberta, e é melhor observada em novembro. A galáxia tem uma magnitude aparente de 8,1 e pode ser vista usando um telescópio de tamanho médio. É uma galáxia elíptica com uma massa equivalente a 3 bilhões de massas solares e um diâmetro de 8 000 anos-luz, muito menor comparado à galáxia de Andrômeda, com 250 000 anos-luz de diâmetro. Apesar de ser uma galáxia pequena, seu núcleo é comparável ao de Andrômeda. Contém uma massa equivalente a 100 milhões de massas solares e uma densidade estelar de cerca de 5 000 estrelas por parsec cúbico, que estão em um rápido movimento em torno de um objeto supermaciço."
         },
         {
             "id": "21",
             "title": "Galáxia do Girino",
-            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/148678main_image_feature_573_ys_full-jpg.webp%3Fw=1024"
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/148678main_image_feature_573_ys_full-jpg.webp%3Fw=1024",
+            "description": "A Galáxia do Girino é uma galáxia espiral barrada interrompida localizada a 420 milhões de anos-luz da Terra, na constelação de Draco. Possui uma cauda atraente, que tem cerca de 280 mil anos-luz de comprimento e apresenta enormes aglomerados de estrelas azuis brilhantes. Seu tamanho foi atribuído a uma fusão com uma galáxia menor que se acredita ter ocorrido há cerca de 100 milhões de anos."
         },
         {
             "id": "22",
             "title": "NGC 3455",
-            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/potw1415a-jpg.webp%3Fw=1280"
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/potw1415a-jpg.webp%3Fw=1280",
+            "description": "NGC 3455 é uma galáxia espiral barrada, que fica a cerca de 65 milhões de anos-luz de distância de nós, na constelação de Leão. Galáxias deste tipo parecem ter uma barra de estrelas cortando o bojo estelar no seu centro. As galáxias são classificadas em diferentes tipos de acordo com sua estrutura e aparência. Este sistema de classificação é conhecido como Sequência de Hubble ou SB. A classificação SB é ainda subdividida pela aparência dos braços espirais giratórios de uma galáxia. Os tipos SBa têm braços mais apertados, enquanto os tipos SBc têm braços mais soltos. A galáxia NGC 3455, é do tipo SBb, ou seja, é intermediária."
         },
         {
             "id": "23",
             "title": "Caldwell 51",
-            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/ic1613_wfc3_mos_1pi_flat_final-jpg.webp%3Fw=2000"
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/ic1613_wfc3_mos_1pi_flat_final-jpg.webp%3Fw=2000",
+            "description": "Caldwell 51, também conhecida como IC 1613, é uma galáxia anã irregular localizada na constelação de Cetus. Este membro do nosso Grupo Local de galáxias está localizado a apenas 2,3 milhões de anos-luz da Terra e tem uma magnitude aparente de 9,9. Apesar da sua relativa proximidade, Caldwell 51 é muito difícil de detectar e é um dos objetos Caldwell mais evasivos. Aparece como uma mancha extremamente tênue e difusa no céu, mesmo quando vista através de telescópios de tamanho moderado. A galáxia é visível no Hemisfério Norte no outono e nas regiões norte do Hemisfério Sul na primavera. Foi descoberto em 1906 pelo astrofotógrafo alemão Max Wolf."
         },
         {
             "id": "24",
             "title": "Centaurus A",
-            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/613778main_hs-2011-18-a-xlarge_web_full-jpg.webp%3Fw=1280"
+            "image": "https://science.nasa.gov/_ipx/w_1280&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/613778main_hs-2011-18-a-xlarge_web_full-jpg.webp%3Fw=1280",
+            "description": "A uma distância de pouco mais de 11 milhões de anos-luz, Centaurus A contém o núcleo galáctico ativo mais próximo da Terra. O centro abriga um buraco negro supermassivo que ejeta jatos de gás em alta velocidade para o espaço. A forma distorcida do disco de gás e a poeira de Centaurus A é evidência de uma colisão e fusão passada com outra galáxia. As ondas de choque resultantes causam a compressão das nuvens de gás hidrogênio, desencadeando uma tempestade de formação de novas estrelas. Eles são visíveis nas manchas vermelhas neste close do Hubble."
         }
     ]
 }

@@ -1,0 +1,118 @@
+/* Define a fonte "nasalization" para uso no documento */
+@font-face {
+    font-family: "nasalization";
+    src: url("../fonts/nasalization-rg.ttf") format("truetype");
+}
+
+/* ========= configurando ========= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========= estilizações gerais ========= */
+body {
+    background-color: #000;
+    font-family: nasalization, sans-serif; /* Define a fonte para o corpo do documento */
+    overflow-x: hidden;
+}
+
+/* ========= scrollbar ========= */
+::-webkit-scrollbar {
+    width: 12px; /* Define a largura da barra de rolagem */
+}
+  
+::-webkit-scrollbar-track {
+    background: #000; /* Define a cor de fundo da área de fundo da barra de rolagem */
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #021526; /* Define a cor da barra de rolagem */
+    border-radius: 5px; /* Adiciona um arredondamento aos cantos da barra de rolagem */
+}
+  
+/* ========= cabeçalho ========= */
+.cabecalho {
+    display: flex; /* Exibe os itens do cabeçalho em linha */
+    justify-content: space-between; /* Espaço entre os itens do cabeçalho */
+}
+
+.cabecalho h1 {
+    color: #fff; /* Define a cor do texto como branco */
+    font-size: 3vw; /* Define o tamanho da fonte */
+    margin: 40px 70px 0px 50px; /* Define as margens do título */
+}
+
+.cabecalho img {
+    width: 3vw; /* Define a largura da imagem */
+    margin: 40px 50px 0px 60px; /* Define as margens da imagem */
+}
+
+#arrow-down:hover {
+    opacity: 0.5; /* Define a opacidade para 50% */
+    transition: 0.7s ease-in-out; /* Adiciona uma transição suave ao passar o mouse */
+}
+
+/* ========= card de resultado ========= */
+.cards {
+    margin: 5% 2%;
+    width: 20%; /* Define a largura do resultado */
+    border-radius: 6%; /* Adiciona um arredondamento nas bordas */
+    padding: 3%; /* Adiciona um preenchimento interno */
+    float: left;
+    
+}
+
+.cards h3,
+.cards p {
+  color: #fff; /* Define a cor do texto como branco */
+  margin: 0px 20px 5px 0px; /* Define as margens dos títulos e parágrafos */
+}
+
+.cards h3 {
+  margin-top: 30px; /* Define a margem superior */
+  font-size: 1.3vw; /* Define o tamanho da fonte */
+}
+
+.cards p {
+  font-size: 1vw; /* Define o tamanho da fonte */
+}
+
+.description {
+  height: 0; /* Define a altura inicial como 0 */
+  overflow: hidden; /* Esconde qualquer conteúdo que exceda a altura do elemento */
+  opacity: 0; /* Define a opacidade como 0 para ocultar o conteúdo */
+}
+
+/* Exibe a descrição quando a classe 'ativa' é aplicada */
+.cards.ativa .description {
+    height: fit-content; /* Define a altura conforme o conteúdo */
+    opacity: 1; /* Define a opacidade como 1 para exibir o conteúdo */
+    transition: ease-in-out 1s; /* Adiciona uma transição suave */
+}
+  
+.image {
+    display: flex; /* Exibe a imagem como um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+  
+#imagem {
+    width: 110%; /* Define a largura da imagem */
+    margin-top: 5%; /* Define a margem superior */
+    border-radius: 12px;
+}
+  
+#arrow-down {
+    display: flex; /* Exibe o ícone */
+    width: 2vw; /* Define a largura do ícone */
+    float: right;
+    margin: -23% -4% 0 0; /* Define as margens */
+    cursor: pointer; /* Adiciona um cursor de ponteiro */
+}
+  
+#arrow-down:hover {
+    opacity: 0.5; /* Define a opacidade como 50% ao passar o mouse */
+    transition: 0.5s ease-in-out; /* Adiciona uma transição suave ao passar o mouse */
+}
